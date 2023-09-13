@@ -37,11 +37,14 @@ function Menu () {
                 </div>
 
                 <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
-                    <h3>Produtos<br/><span>Catalogo Kimaster</span></h3>
+                    <h3>Bem Vindo(a)<br/><span>Catalogo Kimaster</span></h3>
                     <ul>
-                        <DropdownItem img ={carregando} text = {"Carregador"}/>
-                        <DropdownItem img ={fone} text = {"Fone"}/>
-                        <DropdownItem img ={cabo} text = {"plug-usb"}/>
+                        <DropdownItem img ={carregando} text = {"Cadastro"}/>
+                        <DropdownItem img ={fone} text = {"Ofertas"}/>
+                        <DropdownItem img ={cabo} text = {"Carrinho"}/>
+                        <DropdownItem img ={cabo} text = {"Pedidos"}/>
+                        <DropdownItem img ={cabo} text = {"Promoções"}/>
+                        <DropdownItem img ={cabo} text = {"Suporte"}/>
                         
                     </ul>
                 </div>
