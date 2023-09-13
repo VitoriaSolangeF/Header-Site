@@ -36,9 +36,9 @@ function Menu () {
                     <h3>Bem Vindo(a)<br/><span>Catalogo Kimaster</span></h3>
                     <ul>
                         <DropdownItem text = {"- Cadastro"}/>
-                        <DropdownItem text = {"- Ofertas"}/>
+                        <DropdownItem text = {"- Whatsapp"}/>
                         <DropdownItem text = {"- Carrinho"}/>
-                        <DropdownItem text = {"- Pedidos"}/>
+                        <DropdownItem text = {"- Contatos"}/>
                         <DropdownItem text = {"- Promoções"}/>
                         <DropdownItem text = {"- Suporte"}/>
                         
