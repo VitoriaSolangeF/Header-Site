@@ -1,9 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-// Imagens
-import carregando from '../../assets/carregando.png';
-import fone from '../../assets/fone-de-ouvido.png';
-import cabo from '../../assets/plug-usb.png'; 
 
 // Styles
 import './Menu.css';
@@ -39,12 +35,12 @@ function Menu () {
                 <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
                     <h3>Bem Vindo(a)<br/><span>Catalogo Kimaster</span></h3>
                     <ul>
-                        <DropdownItem img ={carregando} text = {"Cadastro"}/>
-                        <DropdownItem img ={fone} text = {"Ofertas"}/>
-                        <DropdownItem img ={cabo} text = {"Carrinho"}/>
-                        <DropdownItem img ={cabo} text = {"Pedidos"}/>
-                        <DropdownItem img ={cabo} text = {"Promoções"}/>
-                        <DropdownItem img ={cabo} text = {"Suporte"}/>
+                        <DropdownItem text = {"- Cadastro"}/>
+                        <DropdownItem text = {"- Ofertas"}/>
+                        <DropdownItem text = {"- Carrinho"}/>
+                        <DropdownItem text = {"- Pedidos"}/>
+                        <DropdownItem text = {"- Promoções"}/>
+                        <DropdownItem text = {"- Suporte"}/>
                         
                     </ul>
                 </div>

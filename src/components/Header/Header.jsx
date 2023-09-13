@@ -2,6 +2,7 @@ import React, { useState} from "react";
 import './Header.css';
 import Menu from "../Menu/Menu";
 import Search from "../Search/Search";
+import Button from "../Button/Button";
 
 function Header () {
     return (
@@ -13,6 +14,7 @@ function Header () {
             <div className="container-button">
                 <Menu />
                 <Search />
+                <Button />
             </div>
         </header>
     );

@@ -1,0 +1,80 @@
+.button-car {
+    width: 10px;
+    height: 40px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+    cursor: pointer;
+    margin:auto;
+    border-radius: 10px;
+    position: absolute;
+    right: 600px;
+    top: 45px;
+    border: none;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    color: aliceblue;
+
+}
+
+.button-atendimento {
+    width: 10px;
+    height: 40px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+    cursor: pointer;
+    margin:auto;
+    border-radius: 10px;
+    position: absolute;
+    right: 520px;
+    top: 45px;
+    border: none;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    color: aliceblue;
+
+}
+
+.button-promocao {
+    width: 10px;
+    height: 40px;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    display: flex;
+    cursor: pointer;
+    margin:auto;
+    border-radius: 10px;
+    position: absolute;
+    right: 440px;
+    top: 45px;
+    border: none;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    color: aliceblue;
+
+}
