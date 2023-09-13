@@ -5,15 +5,19 @@ function Button () {
     return (
         <div className="button">
             <button className="button-car" >
-                <img src="../carrinho.png" alt="carrinho"/>
+                <img src="../promocao.png" alt="carrinho"/>
             </button>
 
             <button className="button-atendimento" >
-                <img src="../atendimento.png" alt="carrinho"/>
+                <img src="../carrinho.png" alt="carrinho"/>
             </button>
 
             <button className="button-promocao" >
-                <img src="../promocao.png" alt="carrinho"/>
+                <img src="../atendimento.png" alt="carrinho"/>
+            </button>
+
+            <button className="button-zap" >
+                <img src="../zap.png" alt="carrinho"/>
             </button>
         </div>
     );
